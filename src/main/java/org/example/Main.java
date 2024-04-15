@@ -72,7 +72,8 @@ public class Main {
 
         public void undoMessage(List<String> recepients, String messageContent, String timeStamp){
             String lastMessage = chatHistory.getLastMessage();
-            //goes to previous string
+            if(lastMessage.getSender().equals(user)){
+            }
 
         }
 
